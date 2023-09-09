@@ -1,5 +1,17 @@
+body {
+  font-family: “Helvetica”, sans-serif;
+  font-size: 16px;
+  background-color: cornsilk
+  color:black;
+  text-align: center;
+  opacity: 0.9;
+  padding: 2px;
+  padding-inline-end: 2px;
+  
+  }
 p {
-    border: 2px solid blueviolet;
+    border: 2px dashed blueviolet;
+    padding: 4px;
   }
 a:link {
   color: green;
