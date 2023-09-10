@@ -1,5 +1,6 @@
+//ask user for name and update the header text with element userName
 function firstMsg(){  
-    var sName = null;
+    let sName = null;
     sName = prompt("What is your name?", "");
     if (sName != null && sName!= "") {
         alert("Welcome " + sName + "!")

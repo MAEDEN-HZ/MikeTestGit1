@@ -1,18 +1,35 @@
 body {
   font-family: “Helvetica”, sans-serif;
   font-size: 16px;
-  background-color: cornsilk
-  color:black;
+  background-color: cornsilk;
+  color: black;
   text-align: center;
   opacity: 0.9;
   padding: 2px;
-  padding-inline-end: 2px;
-  
+  padding-inline-end: 2px;  
   }
+
 p {
     border: 2px dashed blueviolet;
     padding: 4px;
   }
+
+table {
+  width: 90%;
+}
+
+table, th, td {
+  padding: 10px;
+  border:5px solid black;
+  border-collapse: collapse;
+  border-radius: 15px;
+  
+}
+
+th, td {
+  background-color: aquamarine;
+}
+
 a:link {
   color: green;
   background-color: transparent;
@@ -35,4 +52,12 @@ a:active {
   color: yellowgreen;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.testClass {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
 }
